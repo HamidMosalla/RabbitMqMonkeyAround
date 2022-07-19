@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{9CCF9CA4-1FA4-41FE-85E4-D13714CF61CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "Producer\Producer.csproj", "{53BAB133-600B-450B-97FC-833730588350}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RabitMqDocker", "RabitMqDocker", "{2609F32D-67A8-43CD-8094-D288855719D4}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CCF9CA4-1FA4-41FE-85E4-D13714CF61CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCF9CA4-1FA4-41FE-85E4-D13714CF61CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCF9CA4-1FA4-41FE-85E4-D13714CF61CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCF9CA4-1FA4-41FE-85E4-D13714CF61CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BAB133-600B-450B-97FC-833730588350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BAB133-600B-450B-97FC-833730588350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BAB133-600B-450B-97FC-833730588350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BAB133-600B-450B-97FC-833730588350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF7C8220-D3AE-489C-AFB5-6BF1503D6643}
+	EndGlobalSection
+EndGlobal
